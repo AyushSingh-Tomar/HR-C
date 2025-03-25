@@ -1,0 +1,36 @@
+import React from "react";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+
+const ContactInfo = () => {
+  return (
+    <div className="flex items-center justify-center space-x-6 p-4">
+      {/* Phone Section */}
+      <div className="flex items-center space-x-2">
+        <FaPhoneAlt className="text-black" />
+        <span className="font-medium">+91 9856324575</span>
+      </div>
+
+      {/* Vertical Divider */}
+      <div className="h-8 w-1 bg-pink-500"></div>
+
+      {/* Email Section */}
+      <div className="flex items-center space-x-2">
+        <FaEnvelope className="text-black" />
+        <span className="font-medium">info@hrcompany.com</span>
+      </div>
+
+      {/* Vertical Divider */}
+      <div className="h-8 w-1 bg-pink-500"></div>
+
+      {/* Address Section */}
+      <div className="flex items-center space-x-2">
+        <FaMapMarkerAlt className="text-black" />
+        <span className="font-medium">
+          Abu Dhabi House 19 Washington Square N, New York, NY 10011, USA
+        </span>
+      </div>
+    </div>
+  );
+};
+
+export default ContactInfo;
