@@ -1,6 +1,6 @@
 import React from 'react'
 import CommonHeading from './CommonHeading'
-
+import logo2 from '../assets/logo2.png'
 const Strength = () => {
   return (
    <div className='mt-[2vw] relative'>
@@ -16,6 +16,7 @@ const Strength = () => {
                <p>harnessing potential, building the leadership pipeline and coaching leaders for success</p>
             </div>
          </div>
+         <img src={logo2} className='absolute bottom-[1.5vw] h-[8vw] right-[1.5vw]' alt="" />
     </div>
   
   )

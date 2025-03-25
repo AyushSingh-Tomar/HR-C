@@ -1,7 +1,7 @@
 import React from 'react';
 import BlueArrow from './arrow';
 import CommonHeading from './CommonHeading';
-
+import logo2 from '../assets/logo2.png'
 const  HowWePlay=()=>{
   return (
     <div className="mt-[2vw] relative px-4 sm:px-6">
@@ -25,7 +25,8 @@ const  HowWePlay=()=>{
             <BlueArrow text={step.text} color={step.color} boxPoints={step.boxPoints} width={240} />
           </div>
         ))}
-      </div>
+      </div><div> <img src={logo2} className='absolute bottom-[1.5vw] h-[8vw] right-[1.5vw]' alt="" /></div>
+     
     </div>
   );
 }

@@ -15,7 +15,7 @@ const KeyDifferentiators = () => {
     return (
         <div style={{ marginTop: "4vw", position: "relative", marginBottom: "5vw", width: "100%" }}>
             <CommonHeading title="Key Differentiators" />
-            
+            <div className="mt-[5%] ml-[7%]">
             <div style={{
                 position: "relative",
                 backgroundColor: "#006699",
@@ -105,7 +105,7 @@ const KeyDifferentiators = () => {
                     }}
                 />
             </div>
-            
+            </div>
         </div>
     );
 };

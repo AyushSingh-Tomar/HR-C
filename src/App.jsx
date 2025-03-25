@@ -1,6 +1,6 @@
 import React,{useRef} from 'react'
 import Home from './Pages/Home'
-import leftRibbin from './assets/left-ribbin.png';
+// import leftRibbin from './assets/left-ribbin.png';
 import Navbar from './Components/Navbar';
 const App = () => {
   const homeRef = useRef(null);
@@ -25,10 +25,11 @@ const App = () => {
                   //  blogsRef={blogsRef} 
                    />
             <div className='flex'>
-              {/* left ribbin  */}
+              {/* left ribbin 
                 <div className='w-[8vw] '>
-                  <img src={leftRibbin} className='h-full' alt="Left Ribbon" />
-                </div>
+                  <img src={leftRibbin} style={{height:"5%"}} alt="Left Ribbon" />
+                  
+                </div> */}
 
 
               {/* right content  */}
@@ -51,3 +52,4 @@ const App = () => {
 }
 
 export default App
+
