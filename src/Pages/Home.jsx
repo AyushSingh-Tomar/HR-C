@@ -13,51 +13,74 @@ import LeaderShipCoachingAndDevelopment from '../Components/LeaderShipCoachingAn
 import IndustriesWeServed from '../Components/Industries-We-Served'
 import ContactUs from '../Components/Contact-Us'
 import HowWePlay from '../Components/HowWePlay'
- 
 
-const Home = () => {
+//homeRef, aboutRef, contactRef,whyusRef,solutionRef,blogsRef
+const Home = ({ homeRef, aboutRef, contactRef, serviceRef, solutionRef, }) => {
+
   return (
     <div>
-      <Hero/>
-      <Contact/>
+      <section ref={homeRef}>
+        <Hero />
+        <Contact />
+      </section>
 
-      <SectionsLine/>
-      <Strength/>
+      {/* <section ref={homeRef}> */}
+        <SectionsLine />
+        <Strength />
+      {/* </section> */}
 
-      <SectionsLine/>
-      <HowWePlay/>
+      {/* <section ref={homeRef}> */}
+        <SectionsLine />
+        <HowWePlay />
+      {/* </section> */}
 
-      <SectionsLine/>
-      <KeyDifferentiators/>
-      
+      {/* <section ref={homeRef}> */}
+        <SectionsLine />
+        <KeyDifferentiators />
+      {/* </section> */}
 
-      <SectionsLine/>
-      <IndustriesWeServed/>
+      {/* <section ref={homeRef}> */}
+        <SectionsLine />
+        <IndustriesWeServed />
+      {/* </section> */}
 
-      <SectionsLine/>
-      <Services/>
+      <section ref={serviceRef}>
+        <SectionsLine />
+        <Services />
+      </section>
 
-      <SectionsLine/>
-      <EmpoweredPerformance/>
+      {/* <section ref={homeRef}> */}
+        <SectionsLine />
+        <EmpoweredPerformance />
+      {/* </section> */}
 
-      <SectionsLine/>
-      <TeamSolutions/>
+      <section ref={solutionRef}>
+        <SectionsLine />
+        <TeamSolutions />
+      </section>
 
-      <SectionsLine/>
-      <LeaderShipCoachingAndDevelopment/>
+      {/* <section ref={homeRef}> */}
+        <SectionsLine />
+        <LeaderShipCoachingAndDevelopment />
+      {/* </section> */}
 
-      <SectionsLine/>
-      <LogoGrid/>
+      {/* <section ref={homeRef}> */}
+        <SectionsLine />
+        <LogoGrid />
+      {/* </section> */}
 
-      <SectionsLine/>
-      <AboutUs/>
+      <section ref={aboutRef}>
+        <SectionsLine />
+        <AboutUs />
+      </section>
 
-      <SectionsLine/>
-      <ContactUs/>
-      
+      <section ref={contactRef}>
+        <SectionsLine />
+        <ContactUs />
+      </section>
 
-      
-      </div>
+
+    </div>
   )
 }
 
