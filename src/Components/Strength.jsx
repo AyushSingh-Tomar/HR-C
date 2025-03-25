@@ -1,7 +1,7 @@
 import React from 'react';
 import CommonHeading from './CommonHeading';
 import logo2 from '../assets/logo2.png';
-import star from '../assets/star.png';
+import star from '../assets/start.png';
 const Strength = () => {
   return (
     <div className='mt-[2vw] relative'>
