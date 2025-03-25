@@ -29,6 +29,9 @@ const HowWePlay = () => {
       </div>
 
       {/* Logo Positioned Absolutely at Bottom Right */}
+        <br />
+        <br />
+        <br />
       <div className="absolute bottom-[-5vw] right-[1.5vw]">
         <img src={logo2} className="h-[8vw]" alt="Company Logo" />
       </div>
