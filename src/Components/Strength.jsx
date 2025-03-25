@@ -1,25 +1,34 @@
-import React from 'react'
-import CommonHeading from './CommonHeading'
-import logo2 from '../assets/logo2.png'
+import React from 'react';
+import CommonHeading from './CommonHeading';
+import logo2 from '../assets/logo2.png';
+import star from '../assets/star.png';
 const Strength = () => {
   return (
-   <div className='mt-[2vw] relative'>
-    <CommonHeading title="Our Strength" />
-   <div className='flex ml-[5vw] gap-5 mt-[20px] md:mt-[3vw]  md:gap-10 min-w-[300px] flex-wrap '>
-            <div className='bg-[rgb(58,153,201)] text-justify w-[280px] md:w-[500px] p-[30px]'>
-               <p>Shaping and building Talent, performance, teams and leader</p>
-            </div>
-            <div className='bg-[#3A99C9]  w-[280px] text-justify  md:w-[500px] p-[30px]'>
-               <p>⁠delivering excellence through people advisory and processes appropriately customised</p>
-            </div>
-            <div className='bg-[#3A99C9]  w-[280px] text-justify  md:w-[500px] p-[30px]'>
-               <p>harnessing potential, building the leadership pipeline and coaching leaders for success</p>
-            </div>
-         </div>
-         <img src={logo2} className='absolute bottom-[1.5vw] h-[8vw] right-[1.5vw]' alt="" />
-    </div>
-  
-  )
-}
+    <div className='mt-[2vw] relative'>
+      <CommonHeading title="Our Strength" />
+      <div className='flex ml-[5vw] gap-5 mt-[20px] md:mt-[3vw] md:gap-10 min-w-[300px] flex-wrap'>
+        {/* Strength Box 1 */}
+        <div className='bg-[rgb(58,153,201)] text-justify w-[280px] md:w-[500px] p-[30px] flex items-start'>
+          <img src={star} alt="Star" className='w-[20px] h-[20px] mr-2 mt-1' />
+          <p className='text-white'>Shaping and building Talent, performance, teams and leader</p>
+        </div>
 
-export default Strength
+        {/* Strength Box 2 */}
+        <div className='bg-[#3A99C9] w-[280px] text-justify md:w-[500px] p-[30px] flex items-start'>
+          <img src={star} alt="Star" className='w-[20px] h-[20px] mr-2 mt-1' />
+          <p className='text-white'>Delivering excellence through people advisory and processes appropriately customised</p>
+        </div>
+
+        {/* Strength Box 3 */}
+        <div className='bg-[#3A99C9] w-[280px] text-justify md:w-[500px] p-[30px] flex items-start'>
+          <img src={star} alt="Star" className='w-[20px] h-[20px] mr-2 mt-1' />
+          <p className='text-white'>Harnessing potential, building the leadership pipeline and coaching leaders for success</p>
+        </div>
+      </div>
+      <img src={logo2} className='absolute bottom-[1.5vw] h-[8vw] right-[1.5vw]' alt="Logo" />
+    </div>
+  );
+};
+
+export default Strength;
+

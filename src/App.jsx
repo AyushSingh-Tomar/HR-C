@@ -34,7 +34,7 @@ const App = () => {
 
               {/* right content  */}
               <div className='w-[90%]'>
-                <Home
+                <Home className="font-poppins"
                 homeRef={homeRef} 
                 aboutRef={aboutRef} 
                 contactRef={contactRef} 

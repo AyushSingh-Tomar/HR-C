@@ -20,7 +20,7 @@ const IndustriesWeServed = () => {
           <div 
             key={index} 
             className='text-white text-center p-6 h-32 shadow-md hover:scale-105 transition-transform duration-200 cursor-pointer flex items-center justify-center text-lg sm:text-xl font-semibold'
-            style={{ backgroundColor: "#2596be" }}
+            style={{ backgroundColor: "#5b9bd5" }}
           >
             {industry}
           </div>

@@ -1,12 +1,13 @@
 import React from "react";
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
-
+import address from "../assets/address.png"
+import email from "../assets/mail.png"
+import phone2 from "../assets/phone2.png"
 const ContactInfo = () => {
   return (
     <div className="flex items-center justify-center space-x-6 p-4">
       {/* Phone Section */}
       <div className="flex items-center space-x-2">
-        <FaPhoneAlt className="text-black" />
+        <img src={phone2} alt="Phone" className="w-[2vw] h-[2vw]" />
         <span className="font-medium">+91 9856324575</span>
       </div>
 
@@ -15,7 +16,7 @@ const ContactInfo = () => {
 
       {/* Email Section */}
       <div className="flex items-center space-x-2">
-        <FaEnvelope className="text-black" />
+        <img src={email} alt="Email" className="w-[2vw] h-[2vw]" />
         <span className="font-medium">info@hrcompany.com</span>
       </div>
 
@@ -24,7 +25,7 @@ const ContactInfo = () => {
 
       {/* Address Section */}
       <div className="flex items-center space-x-2">
-        <FaMapMarkerAlt className="text-black" />
+        <img src={address} alt="Location" className="w-[2vw] h-[2vw]" />
         <span className="font-medium">
           Abu Dhabi House 19 Washington Square N, New York, NY 10011, USA
         </span>
