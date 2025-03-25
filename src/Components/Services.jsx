@@ -1,7 +1,7 @@
 import React from 'react';
 import CommonHeading from './CommonHeading';
 import { IoMdSettings } from "react-icons/io";
-import logo2 from '../assets/logo2.png'
+import logo2 from '../assets/logo2.png';
 
 const cardData = [
   {
@@ -27,7 +27,7 @@ const cardData = [
 ];
 
 const Card = ({ title, description }) => (
-  <div className="flex ml-[5vw] mt-[20px] items-start border-l-6 border-[#969696] pl-4 p-6 bg-white">
+  <div className="flex ml-[5vw] mt-[20px] items-start border-l-6 border-[#969696] pl-4 p-6 bg-white" style={{ fontFamily: 'Poppins, sans-serif' }}>
     <div>
       <div className='relative'>
         <IoMdSettings className='w-[30px] absolute top-[-15px] left-[24px] h-[30px] text-pink-500' />
@@ -44,8 +44,8 @@ const Card = ({ title, description }) => (
 
 const Services = () => {
   return (
-    <div className='mt-[2vw] relative  flex-col items-center'>
-      <CommonHeading title="Services Architecture"   />
+    <div className='mt-[2vw] relative flex-col items-center' style={{ fontFamily: 'Poppins, sans-serif' }}>
+      <CommonHeading title="Services Architecture" />
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {cardData.map((item, index) => (

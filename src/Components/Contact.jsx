@@ -1,9 +1,13 @@
 import React from 'react';
-import phone from '../assets/phone.png'
-import linkedin from "../assets/linkedin.png"
+import phone from '../assets/phone.png';
+import linkedin from "../assets/linkedin.png";
+
 const Contact = () => {
   return (
-    <div className='bg-linear-to-r ml-[5vw] mt-[2vw] flex justify-center items-center h-[10vw] from-[#3A99C9] to-[#0073AE]'>
+    <div 
+      className='bg-linear-to-r ml-[5vw] mt-[2vw] flex justify-center items-center h-[10vw] from-[#3A99C9] to-[#0073AE]'
+      style={{ fontFamily: 'Poppins, sans-serif' }}
+    >
       <div className='flex justify-between w-[90%] m-auto text-white items-center'>
 
         {/* Left Section */}

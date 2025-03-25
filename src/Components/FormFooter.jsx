@@ -1,10 +1,11 @@
 import React from "react";
-import address from "../assets/address.png"
-import email from "../assets/mail.png"
-import phone2 from "../assets/phone2.png"
+import address from "../assets/address.png";
+import email from "../assets/mail.png";
+import phone2 from "../assets/phone2.png";
+
 const ContactInfo = () => {
   return (
-    <div className="flex items-center justify-center space-x-6 p-4">
+    <div className="flex items-center justify-center space-x-6 p-4" style={{ fontFamily: "Poppins, sans-serif" }}>
       {/* Phone Section */}
       <div className="flex items-center space-x-2">
         <img src={phone2} alt="Phone" className="w-[2vw] h-[2vw]" />

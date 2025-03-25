@@ -1,11 +1,11 @@
 import React from "react";
 import CommonHeading from "./CommonHeading";
 import image2 from "../assets/image 2.png";
-import logo2 from '../assets/logo2.png'
+import logo2 from '../assets/logo2.png';
 
 const EmpoweredPerformance = () => {
   return (
-    <div className="mt-[2vw] relative flex-col items-center">
+    <div className="mt-[2vw] relative flex-col items-center" style={{ fontFamily: "Poppins, sans-serif" }}>
       <CommonHeading title="Empowered Performance" />
 
       <div className="flex justify-center mt-8 sm:mt-10 md:mt-12">
