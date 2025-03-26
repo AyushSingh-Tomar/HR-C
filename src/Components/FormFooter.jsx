@@ -10,6 +10,7 @@ const ContactInfo = () => {
         className="flex w-full items-center justify-center space-x-6 p-4"
         style={{ fontFamily: "Poppins, sans-serif" }}
       >
+         <div className="h-8 w-1 bg-pink-500"></div>
         {/* Phone Section */}
         <div className="flex items-center space-x-2">
           <img src={phone2} alt="Phone" className="w-[2vw] h-[2vw]" />
@@ -35,6 +36,7 @@ const ContactInfo = () => {
             Abu Dhabi House 19 Washington Square N, New York, NY 10011, USA
           </span>
         </div>
+        <div className="h-8 w-1 bg-pink-500"></div>
       </div>
     </div>
   );
