@@ -3,7 +3,7 @@ import React from "react";
 const ContactForm = () => {
   return (
     <div 
-      className="w-4/5 mx-auto p-6 bg-blue-500 rounded-lg shadow-lg my-8 mt-[5%] ml-[7%]"
+      className="w-4.5/5 mx-auto p-6 bg-blue-500 rounded-lg shadow-lg my-8 mt-[5%] ml-[7%] mb-[10%]"
       style={{ backgroundColor: "#3b99c8", fontFamily: "Poppins, sans-serif" }}
     >
       <div className="grid grid-cols-2 gap-4 mb-4">

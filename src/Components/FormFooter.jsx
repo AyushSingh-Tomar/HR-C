@@ -5,7 +5,7 @@ import phone2 from "../assets/phone2.png";
 
 const ContactInfo = () => {
   return (
-    <div className="w-full bg-gray-100">
+    <div className="w-full bg-white ">
       <div
         className="flex w-full items-center justify-center space-x-6 p-4"
         style={{ fontFamily: "Poppins, sans-serif" }}
