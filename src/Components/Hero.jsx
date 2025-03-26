@@ -14,26 +14,26 @@ const Hero = () => {
        </div>
 
        <div>
-          <img src={blueWheel} className='absolute animate-[spin_5s_linear_infinite] h-[17vw] top-[33%] left-[28.5%] translate-[-50%]'  alt="" />
-           <h5 className='absolute top-[32%] left-[28.5%] translate-[-50%] text-[1.5vw] font-[500] text-white w-[11vw] text-center'> Leadership Coaching & Development</h5>
+          <img src={blueWheel} className='absolute animate-[spin_5s_linear_infinite] h-[17vw] top-[33%] left-[29.5%] translate-[-50%]'  alt="" />
+           <h5 className='absolute top-[32%] left-[29.5%] translate-[-50%] text-[1.5vw] font-[500] text-white w-[11vw] text-center'> Leadership Coaching & Development</h5>
        </div>
 
        <div>
-          <img src={blueWheel} className='absolute  animate-[spin_5s_linear_infinite] h-[17vw] top-[34%] right-[4%] translate-[-50%]'  alt="" />
-           <h5 className='absolute top-[34%] right-[13%] translate-[-50%] text-[1.5vw] font-[500] text-white w-[11vw] text-center'> Empowered performance</h5>
+          <img src={blueWheel} className='absolute  animate-[spin_5s_linear_infinite] h-[17vw] top-[34%] right-[8%] translate-[-50%]'  alt="" />
+           <h5 className='absolute top-[34%] right-[16%] translate-[-50%] text-[1.5vw] font-[500] text-white w-[11vw] text-center'> Empowered performance</h5>
        </div>
 
        <div>
-            <img src={blueWheel} className='absolute animate-[spin_5s_linear_infinite] h-[14vw] bottom-[-17.9%] left-[38.5%] translate-[-50%]'  alt="" />
-           <h5 className='absolute bottom-[2%] left-[38.5%] translate-[-50%] text-[1.3vw] font-[500] text-white w-[8vw] text-center'>Advisory & People Processes</h5>
+            <img src={blueWheel} className='absolute animate-[spin_5s_linear_infinite] h-[14vw] bottom-[-10.9%] left-[34.5%] translate-[-50%]'  alt="" />
+           <h5 className='absolute bottom-[8%] left-[34.5%] translate-[-50%] text-[1.3vw] font-[500] text-white w-[8vw] text-center'>Advisory & People Processes</h5>
        </div>
          
        <div>
-          <img src={blueWheel} className='absolute animate-[spin_5s_linear_infinite] h-[14vw] bottom-[-13%] right-[14%] translate-[-50%]'  alt="" />
-           <h5 className='absolute bottom-[12%] right-[22.5%] translate-[-50%] text-[1.5vw] font-[500] text-white w-[8vw] text-center'> Team Solutions</h5>
+          <img src={blueWheel} className='absolute animate-[spin_5s_linear_infinite] h-[14vw] bottom-[-10%] right-[16%] translate-[-50%]'  alt="" />
+           <h5 className='absolute bottom-[14%] right-[24.5%] translate-[-50%] text-[1.5vw] font-[500] text-white w-[8vw] text-center'> Team Solutions</h5>
        </div>
          
-         <img src={logo2} className='absolute bottom-[1.5vw] h-[8vw] right-[1.5vw]' alt="" />
+         <img src={logo2} className='absolute bottom-[1.5vw] h-[5vw] right-[1.5vw]' alt="" />
    </div>
   )
 }

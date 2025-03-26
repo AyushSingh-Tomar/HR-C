@@ -77,7 +77,7 @@
 import React from 'react';
 
 const BlueArrow = ({ 
-  width = 300, 
+  width = 700, 
   height = 60,  // Reduced arrow height
   color = 'blue',
   text = 'Arrow Text',       
@@ -98,14 +98,15 @@ const BlueArrow = ({
           viewBox={`0 0 ${width} ${height}`}
         >
           <polygon 
-            points={flatTail 
-              ? `${width * 0.1},0 ${width * 0.9},0 ${width},${height / 2} ${width * 0.9},${height} ${width * 0.1},${height} 0,${height} 0,0`
-              : `${width * 0.1},0 ${width * 0.9},0 ${width},${height / 2} ${width * 0.9},${height} ${width * 0.1},${height} ${width * 0.2},${height / 2}`
-            } 
-            fill={color} 
-            stroke="black"  
-            strokeWidth="2"
-          />
+  points={flatTail 
+    ? `${width * 0.1},0 ${width * 0.9},0 ${width},${height / 2} ${width * 0.9},${height} ${width * 0.1},${height} ${width * 0.1},${height / 2}`
+    : `${width * 0.1},0 ${width * 0.9},0 ${width},${height / 2} ${width * 0.9},${height} ${width * 0.1},${height} ${width * 0.2},${height / 2}`
+  } 
+  fill={color} 
+  stroke="black"  
+  strokeWidth="2"
+/>
+
         </svg>
 
         <div 

@@ -17,7 +17,7 @@ const AboutUs = () => {
           />
         </div>
         <div className="w-full md:w-2/3 text-gray-700 text-left md:ml-12 mt-4 md:mt-0" style={textStyle}>
-          <p className="text-sm sm:text-base leading-relaxed">
+          <p className="text-base sm:text-lg leading-relaxed">
             Udal is a Graduate in Management from BHU - Varanasi and Post Graduate in Management
             and Organization Behavior from XLRI - Jamshedpur. He is also an alumnus of Ashridge University (UK),
             IMD (Lausanne), Center for Creative Leadership (North Carolina), Indian Business School - Hyderabad,
@@ -27,7 +27,7 @@ const AboutUs = () => {
           </p>
         </div>
       </div>
-      <div className="text-gray-700 text-left mt-6 text-sm sm:text-base leading-relaxed px-6 sm:px-12" style={textStyle}>
+      <div className="text-gray-700 text-left mt-6 text-base sm:text-lg leading-relaxed px-6 sm:px-12" style={textStyle}>
         <p>
           He has worked for over 35 years at leadership positions within Chemicals & Fertilizers, FMCG and
           Pharmaceutical industries, namely, Hindustan Unilever and Colgate Palmolive etc., well-known and recognized
@@ -53,3 +53,4 @@ const AboutUs = () => {
 };
 
 export default AboutUs;
+

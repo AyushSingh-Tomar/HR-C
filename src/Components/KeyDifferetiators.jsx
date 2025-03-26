@@ -15,13 +15,13 @@ const KeyDifferentiators = () => {
     return (
         <div style={{ marginTop: "4vw", position: "relative", marginBottom: "5vw", width: "100%" }}>
             <CommonHeading title="Key Differentiators" />
-            <div className="mt-[5%] ml-[7%]">
+            <div className="mt-[5%] ml-[2%]">
             <div style={{
                 position: "relative",
                 backgroundColor: "#006699",
                 color: "white",
                 padding: "3rem",
-                borderRadius: "10px",
+                // borderRadius: "10px",
                 overflow: "hidden",
                 margin: "2vw auto",
                 marginLeft:"5%",
@@ -83,10 +83,10 @@ const KeyDifferentiators = () => {
                             }}>
                                 <span style={{
                                     fontWeight: "600",
-                                    fontSize: "clamp(1.2rem, 2vw, 1.5rem)"
+                                    fontSize: "clamp(2rem, 2vw, 1.5rem)"
                                 }}>{item.title}</span> {" "}
                                 <span style={{
-                                    fontSize: "clamp(1rem, 1.8vw, 1.2rem)",
+                                    fontSize: "clamp(2rem, 1.8vw, 1.2rem)",
                                     fontWeight: "400"
                                 }}>{item.description}</span>
                             </li>
@@ -100,7 +100,7 @@ const KeyDifferentiators = () => {
                         position: "absolute",
                         bottom: "1.5vw",
                         right: "1.5vw",
-                        height: "8vw",
+                        height: "5vw",
                         zIndex: 4
                     }}
                 />

@@ -2,7 +2,7 @@ import React from 'react';
 import CommonHeading from './CommonHeading';
 import { IoMdSettings } from "react-icons/io";
 import logo2 from '../assets/logo2.png';
-
+import rollfill from '../assets/rollfill.png';
 const cardData = [
   {
     title: 'Empowered Performance',
@@ -26,18 +26,19 @@ const cardData = [
   },
 ];
 
-const Card = ({ title, description }) => (
+const Card = ({ title, description, hideButton }) => (
   <div className="flex ml-[5vw] mt-[20px] items-start border-l-6 border-[#969696] pl-4 p-6 bg-white" style={{ fontFamily: 'Poppins, sans-serif' }}>
     <div>
       <div className='relative'>
-        <IoMdSettings className='w-[30px] absolute top-[-15px] left-[24px] h-[30px] text-pink-500' />
-        <IoMdSettings className='w-[30px] h-[30px] text-pink-500' />
+        <img src={rollfill} alt="" />
       </div>
       <h2 className="text-xl font-bold mb-2">{title}</h2>
       <p className="text-gray-600 mb-4 text-justify">{description}</p>
-      <button className="bg-[#006699] text-white px-4 py-2 rounded hover:bg-[#006680] transition">
-        Read More
-      </button>
+      {!hideButton && (
+        <button className="bg-[#006699] text-white px-4 py-2 rounded hover:bg-[#006680] transition">
+          Read More
+        </button>
+      )}
     </div>
   </div>
 );
@@ -49,14 +50,14 @@ const Services = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {cardData.map((item, index) => (
-            <Card key={index} title={item.title} description={item.description} />
+            <Card key={index} title={item.title} description={item.description} hideButton={index === cardData.length - 1} />
           ))}
         </div>
       </div>
 
       {/* Logo positioned at the bottom within the component */}
       <div className="w-full flex justify-end pr-[1.5vw] mt-4">
-        <img src={logo2} className='h-[8vw]' alt="Logo" />
+        <img src={logo2} className='h-[5vw]' alt="Logo" />
       </div>
     </div>
   );

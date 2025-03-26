@@ -314,7 +314,7 @@ const LeaderShipCoachingAndDevelopment = () => {
 
         {/* Right Section */}
         <div className='w-full md:w-1/3 p-6 text-left break-words'>
-          <h2 className='font-bold text-lg'>Key Challenges Addressed:</h2>
+          <h2 className='font-bold text-lg'>Issues- Illustrative:</h2>
           <ul className='mt-2 list-disc pl-4'>
             {content.right1.map((point, index) => (
               <li key={index} className='mb-1'>{point}</li>
@@ -333,7 +333,7 @@ const LeaderShipCoachingAndDevelopment = () => {
 
       {/* Logo Positioned INSIDE This Component But Out of Content */}
       <div className='absolute bottom-0 right-0 pr-[2vw] pb-[2vw]'>
-        <img src={logo2} className='h-[6vw]' alt="Company Logo" />
+        <img src={logo2} className='h-[5vw]' alt="Company Logo" />
       </div>
     </div>
   );

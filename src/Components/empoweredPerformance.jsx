@@ -18,7 +18,7 @@ const EmpoweredPerformance = () => {
 
       {/* Logo placed at the bottom within the component */}
       <div className="w-full flex justify-end pr-[1.5vw] mt-4">
-        <img src={logo2} className='h-[8vw]' alt="Logo" />
+        <img src={logo2} className='h-[5vw]' alt="Logo" />
       </div>
     </div>
   );
