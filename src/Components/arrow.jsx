@@ -88,7 +88,7 @@ const BlueArrow = ({
   return (
     <div 
       className="relative flex flex-col items-center justify-center gap-6" 
-      style={{ width, fontFamily: 'Poppins' }}
+      style={{ width, fontFamily: 'Calibri' }}
     >
       <div className="relative" style={{ width, height }}>
         <svg 
@@ -114,7 +114,7 @@ const BlueArrow = ({
           style={{ 
             transform: 'translate(-50%, -50%)', 
             pointerEvents: 'none',
-            fontFamily: 'Poppins'
+            fontFamily: 'Calibri'
           }}
         >
           {text}
@@ -129,12 +129,12 @@ const BlueArrow = ({
           borderRadius: '0 0 10px 10px', 
           textAlign: 'left',
           height: deskheight,  // Kept unchanged
-          fontFamily: 'Poppins'
+          fontFamily: 'Calibri'
         }}
       >
-        <ul className="list-disc pl-6" style={{ fontFamily: 'Poppins' }}>
+        <ul className="list-disc pl-6" style={{ fontFamily: 'Calibri' }}>
           {boxPoints.map((point, index) => (
-            <li key={index} className="text-base font-normal" style={{ fontFamily: 'Poppins' }}>
+            <li key={index} className="text-base font-normal " style={{ fontFamily: 'Calibri' }}>
               {point}
             </li>
           ))}
@@ -145,5 +145,3 @@ const BlueArrow = ({
 };
 
 export default BlueArrow;
-
-
