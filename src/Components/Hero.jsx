@@ -11,7 +11,7 @@ const Hero = () => {
       </h2>
       
       <div>
-        <img src={magentaWheel} className='absolute h-[17vw] top-[50%] z-50 left-[50%] translate-[-50%]' alt='' />
+        <img src={magentaWheel} className='absolute h-[17vw] top-[50%] z-49 left-[50%] translate-[-50%]' alt='' />
         <h5 style={{ fontFamily: 'Calibri, sans-serif' }} className='absolute top-[50%] text-[1.8vw] font-[500] text-white w-[10vw] text-center left-[50%] translate-[-50%]'>
           The HR <br /> Company
         </h5>
