@@ -9,12 +9,12 @@ const CommonHeading = (props) => {
       </h2>
 
       {/* Horizontal Line - Touches Left Edge, Now Even Thinner */}
-      <div className='w-[50vw] absolute top-[4vw] left-0 h-[0.15vw] bg-[#969696]'></div>
+      <div className='w-[50vw] absolute top-[4vw] left-0 h-[0.30vw] bg-[#969696]'></div>
 
       {/* Vertical Line - Slightly Offset, Now Even Thinner */}
-      <div className='w-[0.15vw] absolute top-0 left-[3vw] h-full bg-[#969696]'></div>
-    </>
-  )
+      <div className='w-[0.30vw] absolute top-0 left-[3vw] h-full bg-[#969696]'></div>
+</>
+)
 }
 
 export default CommonHeading;

@@ -5,10 +5,11 @@ import FormFooter from './FormFooter'
 function ContactUs() {
 
   return (
-    <div className='mt-[2vw] relative'>
+    <div className='mt-[2vw] relative mb-[-7vw]'>
     <CommonHeading title="Contact Us" />
    <ContactForm/>
-   <FormFooter/>
+   <div className="mb-[-7vw"> <FormFooter className="mb-[-7vw]"/></div>
+  
     </div>
   )
 }

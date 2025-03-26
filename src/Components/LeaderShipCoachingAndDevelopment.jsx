@@ -241,35 +241,37 @@ const LeaderShipCoachingAndDevelopment = () => {
       '5. Management consulting and professional services (Global)',
     ],
     left2: [
-      'Setting ethical guidelines to establish ground rules.',
-      'Building trust and coaching presence with the coachee.',
-      'Enhancing communication through direct interaction, active listening, and questioning.',
-      'Facilitating learning and achieving results.',
-      'Conducting effective feedback meetings.',
+      'Establish ground rules: Setting ethical guidelines for operational and professional standards ',
+      'Establish Trust and Coaching presence with Coachee',
+      'Communicate effectively : direct communication, active listening and questioning.',
+      'Facilitating learning and results.',
+      'Feedback Meetings.',
     ],
     right1: [
-      'Handling interpersonal and functional conflicts.',
-      'Managing superior expectations effectively.',
-      'Developing assertiveness and confidence.',
-      'Enhancing networking and relationship-building skills.',
-      'Prioritizing work for optimal results.',
-      'Navigating difficult and demanding interactions.',
-      'Strengthening self-confidence and self-esteem.',
-      'Delivering impactful plans for global meetings.',
+      'Managing interpersonal / functional conflicts.',
+      'Managing Superior’s expectations.',
+      'Building assertiveness.',
+      'Enhancing Networking skills',
+      'Prioritization of work and achieving results',
+      'Dealing with difficult and demanding people',
+      'Improving Self confidence',
+      'Delivering good plans for key global meetings',
       'Managing multiple responsibilities while maintaining peace of mind.',
-      'Influencing others to drive accountability and commitment.',
-      'Fostering high-performance team dynamics.',
-      'Maintaining control over personal behavior and emotions.',
-      'Adapting effectively to transitions.',
-      'Overcoming business challenges strategically.',
-      'Developing an entrepreneurial mindset.',
-      'Achieving high performance in professional settings.',
+      'Managing Self esteem / Fear of failure.',
+      'Managing multiple accountabilities and being at peace with self.',
+      'Influencing others to enhance commitment and accountabilities.',
+      'Building High performance team.',
+      'Being in control of  personal behavior',
+       'Managing Transition.',
+      'Resolving business challenges.',
+      'Developing entrepreneurial mindset',
+      'Delivering high performance',
     ],
     right2: [
-      'Senior Management – CEOs, Business & Functional Heads.',
-      'Professionals with 20-30 years of experience.',
-      'Experts with backgrounds in Engineering and Management.',
-      'High-potential managers ready for leadership growth.',
+      'Senior Management – CEOs, Business & Functions.',
+      ' 20-30 years of experience.',
+      'Engineering and Management Education.',
+      'High-potential managers',
     ]
   };
 
@@ -284,7 +286,8 @@ const LeaderShipCoachingAndDevelopment = () => {
           <h2 className='font-bold text-lg'>Experienced, Certified & Trained Coaches</h2>
           <p className='mt-2'>Scope and Clients:</p>
           <p className='mt-1'>
-            Coaching assignments typically span 9-12 sessions over a year per coachee, with each session lasting approximately 2.5 hours or more. Clients include:
+          Scope and Clients :
+          Assignments completed with 9-12 sessions over a year per coachee. Each session for about 2.5 hrs or more. Clients Include :
           </p>
           <ul className='mt-2 list-disc pl-4'>
             {content.left1.map((point, index) => (
