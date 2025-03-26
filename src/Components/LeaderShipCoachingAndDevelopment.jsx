@@ -277,9 +277,10 @@ const LeaderShipCoachingAndDevelopment = () => {
 
   return (
     <div className='relative mt-8 px-4 md:px-8 pb-[10vw]' style={{ fontFamily: 'Poppins, sans-serif' }}>
-      <CommonHeading title='Leadership Coaching & Development' />
-      
-      <div className='flex flex-col md:flex-row items-center md:items-start w-full h-auto mt-6 gap-6 mt-[5%] ml-[7%]'>
+      <h2 className='bg-[#006699] ml-[5vw] text-xl sm:text-[2vw] pl-[4vw] text-white relative z-10 flex items-center h-[3vw]' style={{ fontFamily: "Poppins, sans-serif" }}>
+      Leadership Coaching & Development
+      </h2>
+      <div className='flex flex-col md:flex-row items-center md:items-start w-full h-auto mt-6 gap-6 mt-[5%] '>
 
         {/* Left Section */}
         <div className='w-full md:w-1/3 p-6 text-left break-words'>

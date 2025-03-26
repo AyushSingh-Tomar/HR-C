@@ -100,8 +100,8 @@ import LeaderShipCoachingAndDevelopment from "../Components/LeaderShipCoachingAn
 import IndustriesWeServed from "../Components/Industries-We-Served";
 import ContactUs from "../Components/Contact-Us";
 import HowWePlay from "../Components/HowWePlay";
-
 import leftRibbon from "../assets/left-ribbin.png"; 
+import FormFooter from "../Components/FormFooter"
 
 const Home = ({ homeRef, aboutRef, contactRef, serviceRef, solutionRef }) => {
   return (
@@ -119,13 +119,20 @@ const Home = ({ homeRef, aboutRef, contactRef, serviceRef, solutionRef }) => {
         { component: <><SectionsLine /><LogoGrid /></> },
         { ref: aboutRef, component: <><SectionsLine /><AboutUs /></> },
         { ref: contactRef, component: <><SectionsLine /><ContactUs /></> },
+        { component: <><FormFooter /></> },
       ].map(({ ref, component }, index) => (
         <section key={index} ref={ref} className="flex items-stretch">
           {/* Left Image Column */}
-          <div className="w-[8vw] flex-shrink-0">
-            <img src={leftRibbon} className="h-full w-full object-cover" alt="Left Ribbon" />
+          <div className="w-[8vw] relative overflow-hidden">
+            <div className="absolute top-0 left-0 w-full h-full">
+              <img 
+                src={leftRibbon} 
+                className="w-full h-full object-cover" 
+                alt="Left Ribbon" 
+                style={{ clipPath: 'inset(0 0 0 0)' }} 
+              />
+            </div>
           </div>
-
           {/* Right Content Column */}
           <div className="w-[92%]">
             {component}
