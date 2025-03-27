@@ -46,7 +46,7 @@ const Strength = () => {
   return (
     <div className='mt-[2vw] relative' style={textStyle}>
       <CommonHeading title="Our Strength" />
-      <div className='flex ml-[5vw] gap-5 mt-[20px] md:mt-[3vw] md:gap-10 min-w-[300px] flex-wrap justify-center md:justify-start'>
+      <div className='flex ml-[9vw] gap-5 mt-[20px] md:mt-[3vw] md:gap-10 min-w-[300px] flex-wrap justify-center md:justify-start'>
         
         {/* Strength Box 1 */}
         <div className='bg-[rgb(58,153,201)] text-justify w-[280px] md:w-[500px] p-[30px] flex items-start' style={textStyle}>

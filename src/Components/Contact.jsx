@@ -1,6 +1,5 @@
 import React from 'react';
-import phone from '../assets/phone.png';
-import linkedin from "../assets/linkedin.png";
+import { Phone, Linkedin } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -19,15 +18,15 @@ const Contact = () => {
         {/* Right Section */}
         <div>
           <p style={{ fontFamily: 'Calibri, sans-serif' }} className='text-[1.5vw] flex items-center'>
-            <img src={phone} alt="Phone" className="w-[2vw] h-[2vw] mr-2" />
+            <Phone className="w-[2vw] h-[2vw] mr-2 text-[#dd117b]" />
             +91-9930951967 / +91-2225797562
           </p>
           <p style={{ fontFamily: 'Calibri, sans-serif' }} className='text-[1.5vw] flex items-center'>
-            <img src={phone} alt="Phone" className="w-[2vw] h-[2vw] mr-2" />
+            <Phone className="w-[2vw] h-[2vw] mr-2 text-[#dd117b]" />
             +91-9930951967 / +91-2225797562
           </p>
           <p style={{ fontFamily: 'Calibri, sans-serif' }} className='text-[1.5vw] flex items-center'>
-            <img src={linkedin} alt="LinkedIn" className="w-[2vw] h-[2vw] mr-2" />
+            <Linkedin className="w-[2vw] h-[2vw] mr-2 text-[#dd117b]" />
             https://www.linkedin.com/the-hr-company/
           </p>
         </div>
@@ -38,4 +37,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
 

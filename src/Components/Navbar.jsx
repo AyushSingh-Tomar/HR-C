@@ -25,8 +25,9 @@ export default function Navbar({ scrollToSection, homeRef, aboutRef, contactRef,
       {/* Logo with hover effect */}
       <img 
         src={logo} 
-        className="h-[6vw] min-h-[50px] z-91 transition-transform duration-300 hover:scale-105" 
+        className="h-[6vw] min-h-[50px] z-91 transition-transform duration-300 hover:scale-105 mb-[1%]" 
         alt="Logo" 
+        style={{scale:'1.3',marginLeft:'20px',marginTop:'5px'}}
       />
 
       {/* Desktop Navigation */}
