@@ -5,7 +5,7 @@ import logo2 from '../assets/logo2.png';
 
 const EmpoweredPerformance = () => {
   return (
-    <div className="mt-[2vw] relative flex-col items-center" style={{ fontFamily: "Poppins, sans-serif" }}>
+    <div className="mt-[2vw] relative flex-col items-center mb-[-2.5%]" style={{ fontFamily: "Poppins, sans-serif" }}>
       <CommonHeading title="Empowered Performance" />
 
       <div className="flex justify-center mt-8 sm:mt-10 md:mt-12">
@@ -18,7 +18,7 @@ const EmpoweredPerformance = () => {
 
       {/* Logo placed at the bottom within the component */}
       <div className="w-full flex justify-end pr-[1.5vw] mt-4">
-        <img src={logo2} className='h-[5vw]' alt="Logo" />
+        <img src={logo2} className='absolute bottom-[1.3%] h-[5vw]' alt="Logo" />
       </div>
     </div>
   );

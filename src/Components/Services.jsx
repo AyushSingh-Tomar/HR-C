@@ -45,7 +45,7 @@ const Card = ({ title, description, hideButton }) => (
 
 const Services = () => {
   return (
-    <div className='mt-[2vw] relative flex-col items-center' style={{ fontFamily: 'Poppins, sans-serif' }}>
+    <div className='mt-[2vw] relative flex-col items-center mb-[-3%]' style={{ fontFamily: 'Poppins, sans-serif' }}>
       <CommonHeading title="Services Architecture" />
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -57,7 +57,7 @@ const Services = () => {
 
       {/* Logo positioned at the bottom within the component */}
       <div className="w-full flex justify-end pr-[1.5vw] mt-4">
-        <img src={logo2} className='h-[5vw]' alt="Logo" />
+        <img src={logo2} className='absolute h-[5vw] bottom-[2%]' alt="Logo" />
       </div>
     </div>
   );

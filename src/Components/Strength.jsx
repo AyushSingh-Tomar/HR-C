@@ -66,11 +66,8 @@ const Strength = () => {
           <p className='text-white font-bold' style={textStyle}>Harnessing potential, building the leadership pipeline and coaching leaders for success</p>
         </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <img src={logo2} className='absolute bottom-[1.5vw] h-[5vw] right-[1.5vw]' alt="Logo" />
+
+      <img src={logo2} className='absolute bottom-[-1.5vw] h-[5vw] right-[1.5vw]' alt="Logo" />
     </div>
   );
 };

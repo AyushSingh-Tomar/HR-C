@@ -9,7 +9,8 @@ const HowWePlay = () => {
       <h2 className='bg-[#006699] ml-[5vw] text-xl sm:text-[2vw] pl-[4vw] text-white relative z-10 flex items-center h-[3vw]' style={{ fontFamily: "Poppins, sans-serif" }}>
         How we play ?
       </h2>
-
+ <br />
+ <br />
       {/* Arrow Formation */}
       <div className="flex flex-wrap justify-center gap-0 p-2 mt-5 relative" style={{ fontFamily: 'Poppins, sans-serif',  }}>
         {[
@@ -40,7 +41,7 @@ const HowWePlay = () => {
       {/* Logo Positioned Absolutely at Bottom Right */}
     <br />
     <br />
-      <div className="absolute bottom-[-2vw] right-[1.5vw]">
+      <div className="absolute bottom-[-1.5vw] right-[1.5vw]">
         <img src={logo2} className="h-[5vw]" alt="Company Logo" />
       </div>
     </div>
