@@ -13,10 +13,10 @@ import otherLogo from "../assets/image 13.png";
 
 const LogoGrid = () => {
   return (
-    <div className="mt-[2vw] relative mb-[-4%]">
+    <div className="mt-[2vw] relative mb-[-2%]">
       <CommonHeading title="Our Academic and Professional Learning Exposures" />
 
-      <div className="container mx-auto py-10 flex flex-col items-center gap-6">
+      <div className=" container mx-auto py-10 flex flex-col items-center gap-6">
         
         {/* Row 1 - 4 Logos */}
         <div className="flex justify-center gap-8">

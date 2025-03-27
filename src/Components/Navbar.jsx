@@ -8,7 +8,7 @@ export default function Navbar({ scrollToSection, homeRef, aboutRef, contactRef,
   const NavItem = ({ children, onClick }) => (
     <li
       onClick={onClick}
-      className="relative group transition-all duration-300 ease-in-out text-black hover:text-[#0877b1] cursor-pointer"
+      className="relative group transition-all mr-15 duration-300 ease-in-out text-black hover:text-[#0877b1] cursor-pointer"
     >
       {children}
       <span className="absolute bottom-[-3px] left-0 w-0 h-0.5 bg-[#0877b1] group-hover:w-full transition-all duration-300 ease-in-out"></span>

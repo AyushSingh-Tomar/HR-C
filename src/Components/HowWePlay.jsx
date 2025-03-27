@@ -14,11 +14,11 @@ const HowWePlay = () => {
       {/* Arrow Formation */}
       <div className="flex flex-wrap justify-center gap-0 p-2 mt-5 relative" style={{ fontFamily: 'Poppins, sans-serif',  }}>
         {[
-          { text: "Assess", color: "#0066cc", boxPoints: ["Situation Analysis", "Define Arena of engagement", "First level problem definition"], flatTail: true, width: 278 },
-          { text: "Design", color: "#fbfda1", boxPoints: ["Agree on process intervention", "Define resource", "Agree project objectives"], width: 278 },
-          { text: "Align and Commit", color: "#ccffcc", boxPoints: ["Engagement & Alignment of key stakeholders", "Prioritize Interventions", "Resource allocation & time lines"], width: 278 },
-          { text: "Deploy", color: "#99cc00", boxPoints: ["Roll out", "Executional steps",], width: 278 },
-          { text: "Evaluate", color: "#ff5252", boxPoints: ["Review outcome against agreed objectives", "Seek feedback"], width: 278 },
+          { text: "Assess", color: "#0066cc", boxPoints: ["Situation Analysis", "Define Arena of engagement", "First level problem definition"], flatTail: true, width: 260 },
+          { text: "Design", color: "#fbfda1", boxPoints: ["Agree on process intervention", "Define resource", "Agree project objectives"], width: 260 },
+          { text: "Align and Commit", color: "#ccffcc", boxPoints: ["Engagement & Alignment of key stakeholders", "Prioritize Interventions", "Resource allocation & time lines"], width: 260 },
+          { text: "Deploy", color: "#99cc00", boxPoints: ["Roll out", "Executional steps",], width: 260 },
+          { text: "Evaluate", color: "#ff5252", boxPoints: ["Review outcome against agreed objectives", "Seek feedback"], width: 260 },
         ].map((step, index) => (
           <div 
             key={index} 
