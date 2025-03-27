@@ -79,7 +79,7 @@ const LeaderShipCoachingAndDevelopment = () => {
           <img 
             src={image23} 
             alt='Leadership Coaching' 
-            className='max-w-full h-auto object-cover rounded-lg shadow-md'
+            className='max-w-full h-auto object-cover rounded-lg '
           />
         </div>
 

@@ -14,7 +14,7 @@ const AboutUs = () => {
   <img
     src={image3}
     alt="Profile"
-    className="w-40 h-40 sm:w-52 sm:h-52 rounded-full shadow-md border-4 border-white object-cover ml-[25%]"
+    className="w-40 h-40 sm:w-52 sm:h-52 rounded-full  border-4 border-white object-cover ml-[25%]"
   />
 </div>
 

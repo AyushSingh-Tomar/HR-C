@@ -12,7 +12,7 @@ const EmpoweredPerformance = () => {
         <img
           src={image2}
           alt="Empowered Performance"
-          className="w-full max-w-[95%] sm:max-w-[85%] md:max-w-2xl lg:max-w-3xl xl:max-w-4xl 2xl:max-w-5xl shadow-xl rounded-lg"
+          className="w-full max-w-[95%] sm:max-w-[85%] md:max-w-2xl lg:max-w-3xl xl:max-w-4xl 2xl:max-w-5xl  rounded-lg"
         />
       </div>
 
