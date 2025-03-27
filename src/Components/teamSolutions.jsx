@@ -28,7 +28,14 @@ const TeamSolutions = () => {
           />
         </div>
 
-
+        <p 
+          className="text-gray-800 max-w-4xl mx-auto mt-4 sm:mt-6 text-lg sm:text-xl lg:text-2xl leading-relaxed"
+          style={{ fontFamily: 'Poppins, sans-serif', fontSize: '1.2rem', textAlign: 'justify' }}
+        >
+          Team Solutions is a quick, time-bound and proven decision making process with collective learning and execution effectiveness,
+aided by experts and experienced coaches. The process benefits individuals, teams and organizations by building team synergies,
+while solving problems and developing decision making capabilities alongside.
+        </p>
         <div className="w-full flex justify-end pr-[1.5vw] mt-4">
           <img src={logo2} className="absolute h-[5vw] bottom-6" alt="Logo" />
         </div>
