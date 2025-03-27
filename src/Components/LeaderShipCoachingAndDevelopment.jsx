@@ -48,7 +48,7 @@ const LeaderShipCoachingAndDevelopment = () => {
   };
 
   return (
-    <div className='relative mt-8 px-4 md:px-8 pb-[10vw] mb-[-8%]' style={{ fontFamily: 'Calibri, sans-serif' }}>
+    <div className='relative mt-8 px-4 md:px-8 pb-[10vw] mb-[-13%]' style={{ fontFamily: 'Calibri, sans-serif' }}>
       <h2 className='bg-[#006699] ml-[5vw] text-xl sm:text-[2vw] pl-[4vw] text-white relative z-10 flex items-center h-[3vw]' style={{ fontFamily: "Calibri, sans-serif" }}>
       Leadership Coaching & Development
       </h2>
@@ -103,7 +103,7 @@ const LeaderShipCoachingAndDevelopment = () => {
       </div>
 
       {/* Logo Positioned INSIDE This Component But Out of Content */}
-      <img src={logo2} className='absolute bottom-[8%] right-0 h-[5vw]' alt="Company Logo" />
+      <img src={logo2} className='absolute bottom-[14%] right-0 h-[5vw]' alt="Company Logo" />
     </div>
   );
 };
