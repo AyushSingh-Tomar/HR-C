@@ -17,19 +17,19 @@ export default function Navbar({ homeRef, aboutRef, contactRef, serviceRef, solu
 
   const handleNavClick = (ref) => {
     if (ref.current) {
-      const offset = 80; // Adjust based on your navbar height
+      const offset = 80; 
       const elementPosition = ref.current.getBoundingClientRect().top + window.scrollY;
       window.scrollTo({
         top: elementPosition - offset,
         behavior: "smooth",
       });
-      setIsOpen(false); // Close mobile menu on click
+      setIsOpen(false);
     }
   };
 
   return (
     <header className="bg-white fixed top-0 left-0 w-full flex justify-between items-center p-4 md:p-0 z-50 shadow-md">
-      {/* Logo with hover effect */}
+
       <img 
         src={logo} 
         className="h-[6vw] min-h-[50px] transition-transform duration-300 hover:scale-105 mb-[1%]" 
@@ -37,7 +37,6 @@ export default function Navbar({ homeRef, aboutRef, contactRef, serviceRef, solu
         style={{scale:'1.3', marginLeft:'20px', marginTop:'5px'}}
       />
 
-      {/* Desktop Navigation */}
       <nav className="hidden md:flex">
         <ul className="flex gap-8 text-lg text-black items-center" style={{fontSize:"20px"}}>
           <NavItem onClick={() => handleNavClick(homeRef)}>Home</NavItem>
@@ -48,7 +47,7 @@ export default function Navbar({ homeRef, aboutRef, contactRef, serviceRef, solu
         </ul>
       </nav>
 
-      {/* Mobile Menu Button */}
+
       <button 
         className="md:hidden relative z-50" 
         onClick={() => setIsOpen(!isOpen)}
@@ -72,7 +71,6 @@ export default function Navbar({ homeRef, aboutRef, contactRef, serviceRef, solu
         </div>
       </button>
 
-      {/* Mobile Navigation */}
       <nav 
         className={`
           fixed top-0 left-0 w-full h-full bg-white z-40 transform transition-all duration-500 ease-in-out

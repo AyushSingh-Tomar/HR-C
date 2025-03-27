@@ -11,7 +11,7 @@ const HowWePlay = () => {
       </h2>
  <br />
  <br />
-      {/* Arrow Formation */}
+
       <div className="flex flex-wrap justify-center gap-0 p-2 mt-5 relative" style={{ fontFamily: 'Poppins, sans-serif',  }}>
         {[
           { text: "Assess", color: "#0066cc", boxPoints: ["Situation Analysis", "Define Arena of engagement", "First level problem definition"], flatTail: true, width: 260 },
@@ -32,13 +32,12 @@ const HowWePlay = () => {
               width={step.width || 800
               
               }
-              flatTail={step.flatTail || false} // Pass flatTail for first arrow
+              flatTail={step.flatTail || false} 
             />
           </div>
         ))}
       </div>
 
-      {/* Logo Positioned Absolutely at Bottom Right */}
     <br />
     <br />
       <div className="absolute bottom-[-1.5vw] right-[1.5vw]">

@@ -54,7 +54,7 @@ const LeaderShipCoachingAndDevelopment = () => {
       </h2>
       <div className='flex flex-col md:flex-row items-center md:items-start w-full h-auto gap-6 mt-[5%] '>
 
-        {/* Left Section */}
+
         <div className='w-full md:w-1/3 p-6 text-left break-words' style={{ fontFamily: "Calibri, sans-serif" }}>
           <h2 className='font-bold text-lg'>Experienced, Certified & Trained Coaches</h2>
           <p className='mt-2'>Scope and Clients:</p>
@@ -75,7 +75,6 @@ const LeaderShipCoachingAndDevelopment = () => {
           </ul>
         </div>
 
-        {/* Image in Center */}
         <div className='w-full md:w-1/3 flex justify-center'>
           <img 
             src={image23} 
@@ -84,7 +83,6 @@ const LeaderShipCoachingAndDevelopment = () => {
           />
         </div>
 
-        {/* Right Section */}
         <div className='w-full md:w-1/3 p-6 text-left break-words' style={{ fontFamily: "Calibri, sans-serif" }}>
           <h2 className='font-bold text-lg'>Issues- Illustrative:</h2>
           <ul className='mt-2 list-disc pl-4'>
@@ -102,7 +100,7 @@ const LeaderShipCoachingAndDevelopment = () => {
         </div>
       </div>
 
-      {/* Logo Positioned INSIDE This Component But Out of Content */}
+
       <img src={logo2} className='absolute bottom-[14%] right-0 h-[5vw]' alt="Company Logo" />
     </div>
   );

@@ -55,7 +55,6 @@ const Services = () => {
         </div>
       </div>
 
-      {/* Logo positioned at the bottom within the component */}
       <div className="w-full flex justify-end pr-[1.5vw] mt-4">
         <img src={logo2} className='absolute h-[5vw] bottom-[2%]' alt="Logo" />
       </div>

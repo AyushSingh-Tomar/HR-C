@@ -8,7 +8,7 @@ function ContactUs() {
     <div className='mt-[2vw] relative '>
     <CommonHeading title="Contact Us" />
    <ContactForm/>
-   {/* <div className="mb-[-7vw"> <FormFooter/></div> */}
+
   
     </div>
   )

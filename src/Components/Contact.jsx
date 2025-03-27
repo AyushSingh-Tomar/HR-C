@@ -9,13 +9,12 @@ const Contact = () => {
     >
       <div className='flex justify-between w-[90%] m-auto text-white items-center'>
 
-        {/* Left Section */}
         <div>
           <h3 style={{ fontFamily: 'Calibri, sans-serif' }} className='text-[2vw]'>www.thehrcompany.co.in</h3>
           <h3 style={{ fontFamily: 'Calibri, sans-serif' }} className='text-[2vw]'>Gurgaon & Mumbai</h3>
         </div>
 
-        {/* Right Section */}
+
         <div>
           <p style={{ fontFamily: 'Calibri, sans-serif' }} className='text-[1.5vw] flex items-center'>
             <Phone className="w-[2vw] h-[2vw] mr-2 text-[#dd117b]" />

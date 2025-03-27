@@ -17,8 +17,7 @@ const LogoGrid = () => {
       <CommonHeading title="Our Academic and Professional Learning Exposures" />
 
       <div className=" container mx-auto py-10 flex flex-col items-center gap-6">
-        
-        {/* Row 1 - 4 Logos */}
+
         <div className="flex justify-center gap-8">
         <img src={ashridgeLogo} alt="Ashridge" className="h-24 object-contain" />
           <img src={mdiLogo} alt="MDI Gurgaon" className="h-24 object-contain" />
@@ -26,7 +25,7 @@ const LogoGrid = () => {
           <img src={xlriLogo} alt="XLRI Jamshedpur" className="h-24 object-contain" />
         </div>
 
-        {/* Row 2 - 3 Logos */}
+
         <div className="flex justify-center gap-8">
           <img src={conferenceBoardLogo} alt="The Conference Board" className="h-24 object-contain" />
           <img src={iimCalcuttaLogo} alt="IIM Calcutta" className="h-24 object-contain" />
@@ -34,13 +33,12 @@ const LogoGrid = () => {
           <img src={imdLogo} alt="IMD" className="h-24 object-contain" />
         </div>
 
-        {/* Row 3 - 2 Logos */}
+
         <div className="flex justify-center gap-8">
         <img src={otherLogo} alt="Other Institute" className="h-24 object-contain" />
           <img src={stanfordLogo} alt="Stanford" className="h-24 object-contain" />
         </div>
 
-        {/* Row 4 - 1 Logo */}
         <div className="flex justify-center">
         <img src={iitRoorkeeLogo} alt="IIT Roorkee" className="h-24 object-contain" />
         </div>

@@ -122,7 +122,7 @@ const Home = ({ homeRef, aboutRef, contactRef, serviceRef, solutionRef }) => {
         { component: <><FormFooter /></> },
       ].map(({ ref, component }, index) => (
         <section key={index} ref={ref} className="flex items-stretch">
-          {/* Left Image Column */}
+
           <div className="w-[8vw] relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-full">
               <img 
@@ -133,7 +133,7 @@ const Home = ({ homeRef, aboutRef, contactRef, serviceRef, solutionRef }) => {
               />
             </div>
           </div>
-          {/* Right Content Column */}
+
           <div className="w-[92%]">
             {component}
           </div>

@@ -9,8 +9,7 @@ const AboutUs = () => {
     <div className="mt-[2vw] relative px-6 sm:px-12" style={textStyle}>
       <CommonHeading title="About Us" />
       <div className="relative mt-4 pt-6 flex flex-col md:flex-row items-center md:items-start">
-        
-        {/* Image Section */}
+
         <div className="relative w-full md:w-1/3 flex items-center justify-center md:justify-start">
   <img
     src={image3}
@@ -19,7 +18,6 @@ const AboutUs = () => {
   />
 </div>
 
-        {/* Text Section */}
         <div className="w-full md:w-2/3 text-gray-700 md:ml-12 mt-6 md:mt-0 leading-relaxed space-y-4">
           <p className="text-base sm:text-lg" style={textStyle}>
             Udal is a Graduate in Management from BHU - Varanasi and Post Graduate in Management
@@ -32,7 +30,6 @@ const AboutUs = () => {
         </div>
       </div>
 
-      {/* Additional Text */}
       <div className="text-gray-700 mt-6 text-base sm:text-lg leading-relaxed space-y-4 px-6 sm:px-12">
         <p style={textStyle}>
           He has worked for over 35 years at leadership positions within Chemicals & Fertilizers, FMCG and

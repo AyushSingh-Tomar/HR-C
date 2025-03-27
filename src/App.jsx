@@ -10,7 +10,7 @@ const App = () => {
   const solutionRef = useRef(null);
 
 
-  // Function to scroll to the selected section
+
   const scrollToSection = (sectionRef) => {
     sectionRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
@@ -32,7 +32,7 @@ const App = () => {
                 </div> */}
 
 
-              {/* right content  */}
+
               <div className='w-[96%]'>
                 <Home className="font-poppins"
                 homeRef={homeRef} 
