@@ -5,7 +5,7 @@ import logo2 from '../assets/logo2.png';
 
 const Hero = () => {
   return (
-    <div className='bg-linear-to-r ml-[5vw] relative h-[40vw] from-[#3A99C9] to-[#0073AE]'>
+    <div className='bg-linear-to-r ml-[5vw] mt-[8%] relative h-[40vw] from-[#3A99C9] to-[#0073AE]'>
       <h2 style={{ fontFamily: 'Calibri, sans-serif' }} className='text-white md:p-4 w-[80%] m-auto text-[2vw] font-bold text-center'>
         Contributing to performance, talent & leadership excellence across industries since 2007
       </h2>

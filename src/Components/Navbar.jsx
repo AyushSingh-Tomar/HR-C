@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react"; 
 import logo from "../assets/logo.png"; 
 
-export default function Navbar({ scrollToSection, homeRef, aboutRef, contactRef, serviceRef, solutionRef }) {
+export default function Navbar({ homeRef, aboutRef, contactRef, serviceRef, solutionRef }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const NavItem = ({ children, onClick }) => (
@@ -16,18 +16,25 @@ export default function Navbar({ scrollToSection, homeRef, aboutRef, contactRef,
   );
 
   const handleNavClick = (ref) => {
-    scrollToSection(ref);
-    setIsOpen(false);
+    if (ref.current) {
+      const offset = 80; // Adjust based on your navbar height
+      const elementPosition = ref.current.getBoundingClientRect().top + window.scrollY;
+      window.scrollTo({
+        top: elementPosition - offset,
+        behavior: "smooth",
+      });
+      setIsOpen(false); // Close mobile menu on click
+    }
   };
 
   return (
-    <header className="bg-white flex justify-between items-center p-4 md:p-0 relative z-50">
+    <header className="bg-white fixed top-0 left-0 w-full flex justify-between items-center p-4 md:p-0 z-50 shadow-md">
       {/* Logo with hover effect */}
       <img 
         src={logo} 
-        className="h-[6vw] min-h-[50px] z-91 transition-transform duration-300 hover:scale-105 mb-[1%]" 
+        className="h-[6vw] min-h-[50px] transition-transform duration-300 hover:scale-105 mb-[1%]" 
         alt="Logo" 
-        style={{scale:'1.3',marginLeft:'20px',marginTop:'5px'}}
+        style={{scale:'1.3', marginLeft:'20px', marginTop:'5px'}}
       />
 
       {/* Desktop Navigation */}
@@ -41,17 +48,15 @@ export default function Navbar({ scrollToSection, homeRef, aboutRef, contactRef,
         </ul>
       </nav>
 
-      {/* Mobile Menu Button with animation */}
+      {/* Mobile Menu Button */}
       <button 
-        className="md:hidden z-100 relative" 
+        className="md:hidden relative z-50" 
         onClick={() => setIsOpen(!isOpen)}
       >
         <div className="relative w-7 h-5 transform transition duration-300 ease-in-out">
           <span 
             className={`absolute h-0.5 w-full bg-black transition-all duration-300 ease-in-out ${
-              isOpen 
-                ? 'rotate-45 top-1/2 transform -translate-y-1/2' 
-                : 'top-0'
+              isOpen ? 'rotate-45 top-1/2 transform -translate-y-1/2' : 'top-0'
             }`}
           />
           <span 
@@ -61,15 +66,13 @@ export default function Navbar({ scrollToSection, homeRef, aboutRef, contactRef,
           />
           <span 
             className={`absolute h-0.5 w-full bg-black bottom-0 transition-all duration-300 ease-in-out ${
-              isOpen 
-                ? '-rotate-45 top-1/2 transform -translate-y-1/2' 
-                : 'bottom-0'
+              isOpen ? '-rotate-45 top-1/2 transform -translate-y-1/2' : 'bottom-0'
             }`}
           />
         </div>
       </button>
 
-      {/* Mobile Navigation with smooth slide and fade */}
+      {/* Mobile Navigation */}
       <nav 
         className={`
           fixed top-0 left-0 w-full h-full bg-white z-40 transform transition-all duration-500 ease-in-out
@@ -88,6 +91,7 @@ export default function Navbar({ scrollToSection, homeRef, aboutRef, contactRef,
     </header>
   );
 }
+
 
 
 
